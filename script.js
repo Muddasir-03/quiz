@@ -202,6 +202,22 @@ function startTimerLine(time){
         if(time > 549){ //if time value is greater than 549
             clearInterval(counterLine); //clear counterLine
         }
+        if(window.innerWidth< 560 && time > 479){ //if time value is greater than 549
+            clearInterval(counterLine); //clear counterLine
+        }
+        if(window.innerWidth< 555 && time > 419){ //if time value is greater than 549
+            clearInterval(counterLine); //clear counterLine
+            
+        }
+        if(window.innerWidth< 450 && time > 349){ //if time value is greater than 549
+            clearInterval(counterLine); //clear counterLine
+            
+        }
+        if(window.innerWidth< 400 && time > 319){ //if time value is greater than 549
+            clearInterval(counterLine); //clear counterLine
+            
+        }
+       
     }
 }
 

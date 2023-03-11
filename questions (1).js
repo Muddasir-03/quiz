@@ -56,7 +56,29 @@ let questions = [
     ]
   },
   {
-  numb: 6,
+    numb: 6,
+    question: "What does the acronym IoT stands for",
+    answer: "Internet of Things",
+    options:[
+      "Internet of Technology",
+      "Internet of Telecommunications",
+      "Internet of Things",
+      "Internet of Testing"
+    ]
+  },
+  {
+  numb: 7,
+  question: "Which of the following CSS properties is used to set the font size of text?",
+  answer: "font-size",
+  options: [
+    "color",
+    "font-weight",
+    "size",
+    "font-size"
+  ]
+},
+  {
+  numb: 8,
   question: "Which of the following is not JavaScript data type?",
   answer: "integer",
   options: [
@@ -67,7 +89,7 @@ let questions = [
   ]
 },
 {
-  numb: 7,
+  numb: 9,
   question: "Which of the following is used to declare a variable in javaScript?",
   answer: "All of the above",
   options: [
@@ -77,8 +99,20 @@ let questions = [
     "All of the above"
   ]
 },
+
 {
-  numb: 8,
+  numb: 10,
+  question: "Which of the following is the correct syntax for a for loop in JavaScript?",
+  answer: "for(i=0; i<5; i++)",
+  options: [
+    "for(i<5;i++)",
+    "for(i=0; i<5; i++)",
+    "for(i=5; i>0; i--)",
+    "for(i<5; i++)"
+  ]
+},
+{
+  numb: 11,
   question: "Which of the following Python statement is used to create a new list?",
   answer: "list()",
   options: [
@@ -89,18 +123,50 @@ let questions = [
   ]
 },
 {
-  numb: 9,
-  question: "How are you Zeeshan?",
-  answer: "fine",
+  numb: 12,
+  question: "Which of the following is not a valid Python data type?",
+  answer: "character",
   options: [
-    "notfine",
-    "fine",
-    "sometimes fine",
-    "sometimes not fine"
+    "int",
+    "float",
+    "character",
+    "boolean"
+  ]
+},
+{
+  numb: 13,
+  question: "Which of the following is a correct way to define a function in Python?",
+  answer: "def my_function():",
+  options: [
+    "function my_function():",
+    "def my_function():",
+    "function my_function:",
+    "def my_function:"
+  ]
+},
+{
+  numb: 14,
+  question: "What is the name of the cloud computing service provided by Google?",
+  answer: "Google Cloud",
+  options: [
+    "Azure",
+    "icloud",
+    "Amazon Web Services",
+    "Google Cloud"
+  ]
+},
+{
+  numb: 15,
+  question: "What command is used to display the contents of a file in the terminal?",
+  answer: "cat",
+  options: [
+    "Is",
+    "cat",
+    "grep",
+    "touch"
   ]
 },
   
-
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
 
