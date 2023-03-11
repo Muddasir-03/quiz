@@ -381,3 +381,44 @@ footer button.show{
     color: #fff;
     background: #007bff;
 }
+
+/* End of the CSS styling */
+
+@media(max-width:550px){
+    .info_box{
+        width: 400px;
+    }
+}
+@media(max-width:500px){
+    .info_box.activeInfo, .quiz_box.activeQuiz, .result_box.activeResult{
+        transform: translate(-49%, -49%) scale(1);
+    }
+
+}
+@media(max-width:430px){
+    .info_box.activeInfo, .quiz_box.activeQuiz, .result_box.activeResult{
+        transform: translate(-50%, -49%) scale(1);
+    }
+    .info_box{
+        width: 370px;
+    }
+    .info_box .info-list{
+        padding: 10px 20px;
+    }
+}
+@media(max-width:400px){
+    .info_box{
+        width: 355px;
+    }
+    .info_box .info-list{
+        padding: 8px 15px;
+    }
+}
+
+
+
+
+
+
+
+

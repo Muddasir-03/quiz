@@ -55,6 +55,52 @@ let questions = [
       "eXamine Multiple Language"
     ]
   },
+  {
+  numb: 6,
+  question: "Which of the following is not JavaScript data type?",
+  answer: "integer",
+  options: [
+    "string",
+    "integer",
+    "boolean",
+    "array"
+  ]
+},
+{
+  numb: 7,
+  question: "Which of the following is used to declare a variable in javaScript?",
+  answer: "All of the above",
+  options: [
+    "var",
+    "let",
+    "const",
+    "All of the above"
+  ]
+},
+{
+  numb: 8,
+  question: "Which of the following Python statement is used to create a new list?",
+  answer: "list()",
+  options: [
+    "list()",
+    "new_list()",
+    "create_list()",
+    "make_list()"
+  ]
+},
+{
+  numb: 9,
+  question: "How are you Zeeshan?",
+  answer: "fine",
+  options: [
+    "notfine",
+    "fine",
+    "sometimes fine",
+    "sometimes not fine"
+  ]
+},
+  
+
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
 
