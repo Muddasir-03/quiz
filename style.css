@@ -8,7 +8,7 @@
 }
 
 body{
-    background: #007bff;
+    background: black;
 }
 
 ::selection{
@@ -170,6 +170,7 @@ body{
 
 .quiz_box header .time_line{
     position: absolute;
+    width: 100% !important;
     bottom: 0px;
     left: 0px;
     height: 3px;
@@ -384,34 +385,118 @@ footer button.show{
 
 /* End of the CSS styling */
 
-@media(max-width:550px){
+@media(max-width:560px){
+    .quiz_box{
+        max-width: 480px;
+    }
     .info_box{
-        width: 400px;
+        max-width: 480px;
+    }
+    .info_box .info-list{
+        padding: 10px 25px;
     }
 }
 @media(max-width:500px){
-    .info_box.activeInfo, .quiz_box.activeQuiz, .result_box.activeResult{
-        transform: translate(-49%, -49%) scale(1);
+    .quiz_box{
+        max-width: 420px;
     }
-
-}
-@media(max-width:430px){
-    .info_box.activeInfo, .quiz_box.activeQuiz, .result_box.activeResult{
-        transform: translate(-50%, -49%) scale(1);
+    .quiz_box header .title{
+        font-size: 15px;
+    }
+    section .que_text{
+        font-size: 22px;
     }
     .info_box{
-        width: 370px;
+        max-width: 420px;
     }
     .info_box .info-list{
-        padding: 10px 20px;
+        padding: 8px 15px;
+    }
+    .info_box .info-list .info{
+        font-size: 14px;
+    }
+    .result_box{
+      max-width: 350px;
+    }
+}
+@media(max-width:450px){
+    .quiz_box{
+        max-width: 350px;
+    } 
+    .quiz_box header .timer .time_left_txt{
+        font-size: 12px;
+    }
+    .quiz_box header .timer .timer_sec{
+        font-size: 14px;
+    }
+    section{
+        padding: 18px 23px 13px 23px;
+    }
+    .info_box{
+        max-width: 400px;
+    }
+    .info_box .info-list{
+        padding: 8px 13px;
+    }
+    .info_box .info-list .info{
+        font-size: 12px;
+    }
+    .info_box .buttons{
+        height: 45px;
+    }
+    .info_box .buttons button{
+        height: 35px;
+        font-size: 14px;
+    }
+    .info_box .buttons{
+        padding: 0 25px;
+    }
+    .result_box{
+        padding: 20px 25px;
+    }
+    .result_box .icon{
+        font-size: 80px;
+    }
+    .result_box .complete_text{
+        font-size: 15px;
+    }
+    .result_box .score_text span{
+        font-size: 15px;
+    }
+    .result_box .buttons button{
+        padding: 0 15px;
+        font-size: 15px;
+        height: 40px;
     }
 }
 @media(max-width:400px){
     .info_box{
-        width: 355px;
+        max-width: 340px;
     }
-    .info_box .info-list{
-        padding: 8px 15px;
+    .quiz_box{
+        max-width: 320px;
+    }
+    .quiz_box header .timer .time_left_txt{
+        font-size: 10px;
+    }
+    section .que_text{
+        font-size: 19px;
+    }
+    section .option_list .option{
+        font-size: 14px;
+    }
+    .result_box{
+        width: 310px;
+    }
+    .result_box .buttons button{
+        padding: 0 10px;
+        height: 35px;
+    }
+}
+@media(max-width:370px){
+    .start_btn button{
+        padding: 12px 25px;
+        font-size: 22px;
     }
 }
 
